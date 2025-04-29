@@ -7,6 +7,7 @@ function calculateDiscount(price, discountRate) {
 
 function filterProducts(products, callback) {
     if (!Array.isArray(products) || typeof callback !== 'function') return [];
+    // return products.filter(callback); ;;; jenny
     // TODO: Implement filtering logic
     return [];
 }
@@ -17,7 +18,7 @@ function sortInventory(inventory, key) {
     return [];
 }
 
-module.exports = 
+module.exports =
 {
     calculateDiscount,
     filterProducts,
